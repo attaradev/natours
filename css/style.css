@@ -68,7 +68,7 @@ body {
 .heading-primary-main {
     display: block;
     font-size: 6rem;
-    font-weight: 40rem;
+    font-weight: 400;
     letter-spacing: 3.5rem;
 
     animation-name: moveInLeft;
