@@ -42,18 +42,18 @@ body {
   clip-path: polygon(0 0, 100vw 0, 100vw 75vh, 0 95vh);
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
 
 }
 
-.logo {
+.header__logo {
   height: 3.5rem;
 }
 
-.text-box {
+.header__text-box {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -69,7 +69,7 @@ body {
   margin-bottom: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
@@ -80,7 +80,7 @@ body {
   animation-timing-function: ease-in-out;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   font-size: 2rem;
   font-weight: 700;
@@ -131,12 +131,12 @@ body {
   transition: all 0.2s;
 }
 
-.btn-white {
+.btn--white {
   background-color: #fff;
   color: #777;
 }
 
-.btn-white::after {
+.btn--white::after {
   content: "";
   display: inline-block;
   height: 100%;
@@ -145,7 +145,7 @@ body {
   background-color: #fff;
 }
 
-.btn-animated {
+.btn--animated {
   animation: moveInBottom .5s ease-in .5s;
   animation-fill-mode: backwards;
 }
