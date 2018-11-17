@@ -1,18 +1,13 @@
-/*
-COLORS:
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
 
---light-green: #7ed56f;
---medium-green: #55c57a;
---dark-green: #28b485;
---light-dark: #777;
-*/
+@import 'base/animations';
+@import 'base/base';
+@import 'base/typography';
+@import 'base/utilities';
 
-$color-primary: #55c57a;
-$color-primary-light: #7ed56f;
-$color-primary-dark: #28b485;
-$color-grey-dark: #777;
-$color-white: #fff;
-$color-black: #000;
+@import 'pages/home';
 
 *,
 *::after,
@@ -157,53 +152,5 @@ body {
   &--animated {
     animation: moveInBottom .5s ease-in .5s;
     animation-fill-mode: backwards;
-  }
-}
-
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-10rem);
-  }
-
-  80% {
-    transform: translateX(1rem);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(10rem);
-  }
-
-  80% {
-    transform: translateX(-1rem);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate(0);
-  }
-}
-
-@keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(5rem);
-  }
-
-  80% {
-    transform: translateY(-1rem);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate(0);
   }
 }
