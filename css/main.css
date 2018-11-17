@@ -69,6 +69,23 @@ body {
     animation-duration: 1s;
     animation-timing-function: ease-in-out; }
 
+.heading-secondary {
+  display: inline-block;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all .2s;
+  letter-spacing: 2px; }
+  .heading-secondary:hover {
+    transform: skewY(2deg) skewX(15deg);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.text-center {
+  text-align: center; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -165,4 +182,5 @@ body {
 
 .about {
   background-color: #f7f7f7;
-  padding: 25rem 0; }
+  padding: 25rem 0;
+  margin-top: -20vh; }
