@@ -86,6 +86,9 @@ body {
 .text-center {
   text-align: center; }
 
+.margin-bottom-8 {
+  margin-bottom: 8rem; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
