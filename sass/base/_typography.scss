@@ -46,14 +46,14 @@
   }
 
   &-tertiary {
-    font-size: $font-default;
+    font-size: $font-default-size;
     font-weight: 700;
     text-transform: uppercase;
   }
 }
 
 .paragraph {
-  font-size: $font-default;
+  font-size: $font-default-size;
 
   &:not(:last-child) {
     margin-bottom: 1.3rem;
