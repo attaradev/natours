@@ -65,6 +65,7 @@
     &:visited {
       color: $color-primary;
       display: inline-block;
+      font-size: $font-default;
       text-decoration: none;
       border-bottom: 1px solid $color-primary;
       padding: 3px;

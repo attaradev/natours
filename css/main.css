@@ -156,6 +156,7 @@ body {
 .btn-text:link, .btn-text:visited {
   color: #55c57a;
   display: inline-block;
+  font-size: 1.6rem;
   text-decoration: none;
   border-bottom: 1px solid #55c57a;
   padding: 3px; }
