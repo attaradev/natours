@@ -3,10 +3,10 @@
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 50rem;
+  height: 51rem;
 
   &__side {
-    height: 50rem;
+    height: 51rem;
     transition: all 0.5s ease;
     position: absolute;
     top: 0;
@@ -96,6 +96,22 @@
         rgba($color-secondary-light, 0.85),
         rgba($color-secondary-dark, 0.85)
       );
+    }
+  }
+  &__details {
+    padding: 3rem;
+    ul {
+      list-style: none;
+      margin: 0 auto;
+      width: 80%;
+      li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem;
+        &:not(:last-child) {
+          border-bottom: 1px solid $color-grey-light-2;
+        }
+      }
     }
   }
 }
