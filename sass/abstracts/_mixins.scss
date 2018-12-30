@@ -11,3 +11,11 @@
     margin-right: $gutter-horizontal;
   }
 }
+
+@mixin box-shadow-1 {
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+}
+
+@mixin box-shadow-2 {
+  box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
+}
