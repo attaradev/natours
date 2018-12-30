@@ -105,6 +105,15 @@ body {
 .margin-bottom-large {
   margin-bottom: 8rem; }
 
+.margin-top-small {
+  margin-top: 1.5rem; }
+
+.margin-top-medium {
+  margin-top: 4rem; }
+
+.margin-top-large {
+  margin-top: 8rem; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -149,8 +158,14 @@ body {
     border-radius: 10rem;
     background-color: #fff; }
 
+.btn--green {
+  background-color: #55c57a;
+  color: #f7f7f7; }
+  .btn--green::after {
+    background-color: #55c57a; }
+
 .btn--animated {
-  animation: moveInBottom .5s ease-in .5s;
+  animation: moveInBottom 0.5s ease-in 0.5s;
   animation-fill-mode: backwards; }
 
 .btn-text:link, .btn-text:visited {
@@ -160,7 +175,7 @@ body {
   text-decoration: none;
   border-bottom: 1px solid #55c57a;
   padding: 3px;
-  transition: all .2s; }
+  transition: all 0.2s; }
 
 .btn-text:hover {
   background-color: #55c57a;
