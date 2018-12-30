@@ -160,7 +160,7 @@ body {
 
 .btn--green {
   background-color: #55c57a;
-  color: #f7f7f7; }
+  color: #fff; }
   .btn--green::after {
     background-color: #55c57a; }
 
