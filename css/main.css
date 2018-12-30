@@ -114,6 +114,9 @@ body {
 .margin-top-large {
   margin-top: 8rem; }
 
+.margin-top-huge {
+  margin-top: 10rem; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -323,6 +326,12 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.05); }
 
+.story {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  background-color: #fff; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -385,5 +394,9 @@ body {
 
 .tours {
   background-color: #f7f7f7;
-  padding: 25rem 0 15rem 0;
+  padding: 25rem 0 13rem 0;
   margin-top: -10rem; }
+
+.stories {
+  padding: 15rem 0;
+  background-color: #f7f7f7; }
